@@ -7,6 +7,11 @@
   <title>Card Viewer</title>
 </head>
 <body>
+  <div class="CardForm">
+    <input type="number" name="card-num" id="card-num" value="1" min="1" max="100"/>
+    <button id="set-card-btn">View Card</button>
+    Currently viewing <span id="current-card-num">...</span>
+  </div>
   <div class="Card" id="card">
     <div class="CoverImage">
       <img id="image" />
@@ -20,7 +25,6 @@
     <div class="PostContent" id="content">
     </div>
   </div>
-  <script src="/javascripts/card.js">
-  </script>
+  <script src="/javascripts/card.js"></script>
 </body>
 </html>

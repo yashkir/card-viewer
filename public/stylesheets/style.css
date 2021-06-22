@@ -62,3 +62,7 @@ body {
   top: -150px;
   position: relative;
 }
+
+.CardForm {
+  margin: 25px;
+}
